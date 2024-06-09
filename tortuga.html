@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Producto - Cosas de la Tierra</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/leaf-icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="text-white text-center py-3">
+        <h1 class="text-with-border">Cosas de la Tierra</h1>
+        <p class="text-with-thicker-border">Artesanías en Cerámica</p>
+    </header>
+
+    <!-- Menú de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="index.html#inicio">
+            <img src="assets/leaf-icon.png" alt="Logo" class="navbar-logo">
+        </a>
+        <button class="navbar-toggler navbar-toggler-custom" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#productos">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Detalle del Producto -->
+    <main class="container my-5">
+        <h2>Tortuga de cerámica</h2>
+
+        <!-- Carrusel de Imágenes -->
+        <div id="carrousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carrousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carrousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/tortuga.jpeg" class="d-block w-100" alt="tortuga de cerámica">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/tortuga2.jpeg" class="d-block w-100" alt="juego de té">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carrousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carrousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <p>Detalles</p>
+        <p>Tortuga de cerámica decorativa realizada en barro rojo, pintada a mano sin esmaltar para un acabado rústico. Además se puede utilizar como portasahumerios ya que tiene un orificio en su lomo para colocar cualquiera de nuestra variedad de sahumerios</p>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-custom text-center py-3">
+        <p>&copy; 2024 Cosas de la Tierra.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
