@@ -1,2 +1,2 @@
-# DisenoWeb
- pagina web cosas de la tierra
+# DiseñoWeb
+Trabajo evaluativo de la materia Diseño Web de la carrera Desarrollo de Software dictada por el ISFT° 204
